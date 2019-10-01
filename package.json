@@ -1,0 +1,13 @@
+{
+  "name": "gitstuff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "@fabien0102/git2json": "^1.4.0"
+  }
+}
