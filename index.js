@@ -1,7 +1,7 @@
 const fs = require("fs");
 const git2json = require("@fabien0102/git2json");
 
-const repoPath = "./";
+const path = "./";
 
 function writeToJSON(json) {
   fs.writeFile("output.json", json, "utf8", function(err) {
@@ -14,7 +14,7 @@ function writeToJSON(json) {
   });
 }
 
-git2json.run({ repoPath }).then(myGitLogJSON => {
+git2json.run({ path }).then(myGitLogJSON => {
   writeToJSON(JSON.stringify(myGitLogJSON));
   console.log("Done!");
 });

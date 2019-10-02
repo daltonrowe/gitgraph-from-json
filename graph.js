@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(function(result) {
       const graphContainer = document.getElementById("graph-container");
       const gitgraph = GitgraphJS.createGitgraph(graphContainer);
+      console.log("importing json");
       gitgraph.import(JSON.parse(result));
     })
     .catch(function(err) {
