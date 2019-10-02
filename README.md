@@ -1,5 +1,7 @@
 # Git2JSON -> GitGraph.js
 
+![GitGraph Example](https://github.com/daltonrowe/gitgraph-from-json/blob/master/img/readme.png?raw=true)
+
 # Install & Serve
 
 `yarn install` to install dependencies
