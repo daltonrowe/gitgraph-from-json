@@ -6,9 +6,9 @@
 
 `yarn start` to generate JSON from git repository
 
-`yarn serve` to run Express server with GitGraph.js at http://localhost:3000/
+- Edit `path` in `index.js` to generate info from any repo directory.
 
-Edit `path` in `index.js` to generate info from any repo directory.
+`yarn serve` to run Express server with GitGraph.js at http://localhost:3000/
 
 ## Files
 
