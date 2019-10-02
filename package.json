@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "serve": "node ./server.js"
   },
   "dependencies": {
-    "@fabien0102/git2json": "^1.4.0"
+    "@fabien0102/git2json": "^1.4.0",
+    "express": "^4.17.1"
   }
 }
