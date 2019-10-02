@@ -1,5 +1,5 @@
 {
-  "name": "gitstuff",
+  "name": "git2json2gitgraph",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
