@@ -1,4 +1,4 @@
-# Git2JSON -> GitGraph.js
+# Git2JSON to GitGraph.js example
 
 ![GitGraph Example](https://github.com/daltonrowe/gitgraph-from-json/blob/master/img/readme.png?raw=true)
 
@@ -18,6 +18,8 @@
 
 `server.js` – Run a basic Express server to serve HTML/JSON
 
-`index.html` - Webpage that requests `output.json` and displays with GitGraph.js
+`index.html` - Webpage that serves `graph.js` and displays with GitGraph.js
+
+`graph.js` - Client side script the requests `output.json` and bootstraps GitGraph
 
 `output.json` - Untracked output of `yarn start`
