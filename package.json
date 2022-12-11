@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@fabien0102/git2json": "^1.4.0",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
